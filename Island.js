@@ -816,14 +816,6 @@ if (reversed == null) { reversed = false; }
 		_this.gotoAndStop('Welcome');
 		});
 	}
-	this.frame_90 = function() {
-		var _this = this;
-		/*
-		Stop a Movie Clip/Video
-		Stops the specified movie clip or video.
-		*/
-		_this.stop();
-	}
 	this.frame_103 = function() {
 		var _this = this;
 		/*
