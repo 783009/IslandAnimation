@@ -650,7 +650,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,9,29,49,58,69,89,90,103,119];
+	this.actionFrames = [0,9,29,49,58,69,89,90,103,120];
 	// timeline functions:
 	this.frame_0 = function() {
 		var _this = this;
@@ -829,7 +829,7 @@ if (reversed == null) { reversed = false; }
 		_this.gotoAndStop('Welcome');
 		});
 	}
-	this.frame_119 = function() {
+	this.frame_120 = function() {
 		var _this = this;
 		/*
 		Stop a Movie Clip/Video
@@ -839,7 +839,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(20).call(this.frame_29).wait(20).call(this.frame_49).wait(9).call(this.frame_58).wait(11).call(this.frame_69).wait(20).call(this.frame_89).wait(1).call(this.frame_90).wait(13).call(this.frame_103).wait(17).call(this.frame_119));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(20).call(this.frame_29).wait(20).call(this.frame_49).wait(9).call(this.frame_58).wait(11).call(this.frame_69).wait(20).call(this.frame_89).wait(1).call(this.frame_90).wait(13).call(this.frame_103).wait(17).call(this.frame_120));
 
 	// Buttons
 	this.Scare_1 = new lib.btnWolf();
