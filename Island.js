@@ -839,7 +839,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(20).call(this.frame_29).wait(20).call(this.frame_49).wait(9).call(this.frame_58).wait(11).call(this.frame_69).wait(20).call(this.frame_89).wait(1).call(this.frame_90).wait(13).call(this.frame_103).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(20).call(this.frame_29).wait(20).call(this.frame_49).wait(9).call(this.frame_58).wait(11).call(this.frame_69).wait(20).call(this.frame_89).wait(1).call(this.frame_90).wait(13).call(this.frame_103).wait(17).call(this.frame_119));
 
 	// Buttons
 	this.Scare_1 = new lib.btnWolf();
