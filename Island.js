@@ -819,12 +819,6 @@ if (reversed == null) { reversed = false; }
 	this.frame_103 = function() {
 		var _this = this;
 		/*
-		Stop a Movie Clip/Video
-		Stops the specified movie clip or video.
-		*/
-		_this.stop();
-		var _this = this;
-		/*
 		Clicking on the specified symbol instance executes a function.
 		*/
 		_this.Home_1.on('click', function(){
@@ -834,6 +828,14 @@ if (reversed == null) { reversed = false; }
 		*/
 		_this.gotoAndStop('Welcome');
 		});
+	}
+	this.frame_119 = function() {
+		var _this = this;
+		/*
+		Stop a Movie Clip/Video
+		Stops the specified movie clip or video.
+		*/
+		_this.stop();
 	}
 
 	// actions tween:
