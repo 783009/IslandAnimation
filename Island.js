@@ -650,7 +650,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,9,29,49,58,69,89,90,103];
+	this.actionFrames = [0,9,29,49,58,69,89,90,103,119];
 	// timeline functions:
 	this.frame_0 = function() {
 		var _this = this;
