@@ -984,7 +984,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_25 = new lib.ManGoingBack("synched",0);
 	this.instance_25.setTransform(861.8,521.1,1,1,0,0,0,160.8,151.1);
 
-	this.instance_26 = new lib.btnWolf();
+	this.instance_26 = new lib.wolf("synched", 0);
 	this.instance_26.setTransform(1092.9,510,1,1,0,0,0,70.9,90);
 
 	this.instance_27 = new lib.ChatGPTImageMay29202502_39_10PM();
