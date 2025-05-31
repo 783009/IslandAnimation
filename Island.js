@@ -696,6 +696,17 @@ if (reversed == null) { reversed = false; }
 		*/
 		_this.gotoAndPlay('Answer');
 		});
+		var _this = this;
+		/*
+		Double click on the specified symbol instance executes a function.
+		*/
+		_this.Scare_1.on('dblclick', function(){
+		/*
+		Moves the playhead to the specified frame label in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		*/
+		_this.gotoAndPlay('JumpScare');
+		});
 	}
 	this.frame_29 = function() {
 		var _this = this;
@@ -867,7 +878,7 @@ if (reversed == null) { reversed = false; }
 	this.Home_1.setTransform(79.4,73.35);
 	new cjs.ButtonHelper(this.Home_1, 0, 1, 2, false, new lib.btnHome(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Play_1},{t:this.Scare_1}]}).to({state:[{t:this.Answer_1}]},9).to({state:[]},10).to({state:[{t:this.Next_1,p:{x:100.55,y:60.05}}]},10).to({state:[]},1).to({state:[{t:this.Next_1,p:{x:100.55,y:60.05}}]},19).to({state:[]},1).to({state:[{t:this.Next_1,p:{x:100.55,y:60.05}}]},8).to({state:[]},1).to({state:[{t:this.Next_1,p:{x:79.4,y:73.35}}]},10).to({state:[]},1).to({state:[{t:this.Home_1,p:{x:79.4,y:73.35}}]},19).to({state:[]},1).to({state:[{t:this.Home_1,p:{x:560.35,y:233.3}}]},29).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Play_1},{t:this.Scare_1}]}).to({state:[{t:this.Answer_1},{t: this.Scare_1}]},9).to({state:[]},10).to({state:[{t:this.Next_1,p:{x:100.55,y:60.05}}]},10).to({state:[]},1).to({state:[{t:this.Next_1,p:{x:100.55,y:60.05}}]},19).to({state:[]},1).to({state:[{t:this.Next_1,p:{x:100.55,y:60.05}}]},8).to({state:[]},1).to({state:[{t:this.Next_1,p:{x:79.4,y:73.35}}]},10).to({state:[]},1).to({state:[{t:this.Home_1,p:{x:79.4,y:73.35}}]},19).to({state:[]},1).to({state:[{t:this.Home_1,p:{x:560.35,y:233.3}}]},29).wait(1));
 
 	// Text
 	this.instance = new lib.CachedBmp_1();
