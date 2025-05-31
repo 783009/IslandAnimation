@@ -640,7 +640,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,321.6,302.3);
 
 // stage content:
 (lib.Island = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
+if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
